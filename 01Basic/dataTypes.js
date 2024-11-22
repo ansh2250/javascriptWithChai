@@ -1,29 +1,26 @@
-"use strict" //treat all js code as a new version
+"use strict" // strict saare code ko new version me daal deta h agar koi galti karoge to ye error dedega
 
-// alert ("Hello this is ansh") we are using node not browser
+/* chalo data type samjhte hai 
+ hame kuch data agar chahiye jaise koi number name booliyan value jaise true false ye decimal value  to hame us data ko save rakhne ke liye ek memory location chahiye or us memory me rakhne ke liye hame ek varriable chahiye jisme wo data store ho sake.
+*/
+const a = null // const ko bina initialise kare rakhoge to error dega ise data dena hoga.
 
-console.log(3 + 
-    3) //code readiblity must be hight this is wrong readiblity
+let b // let ko bina initialise kare rakh sakte hai output undefined ayega
 
-    console.log("Ansh Kumar Sinha")
+var c /* var ko bhi bina initialise kare rakh sakte hai output undefined ayega. var ko ab use nhi karna chahiye*/
 
-    let userName = "shahzad"
-    let userAge = 18
-    let userLoggedIn = true
-    let state;
+const studentId = 1
+let studentName = "Rehan"
+let studentAddress = "Patther Ki Masjid"
+let studentNumber = 9117428975
+let studentAge 
+let studentClass = null
+let studentAttendance = true
 
-    
-// number => 2 to power 53
-// bigint
-// string => ""
-// boolean => true/false
-// null => standalone value
-// undefined => 
-// symbol => unique
+console.table([studentId, studentName, studentAddress, studentNumber, studentClass, studentAge, studentAttendance, typeof studentClass])
 
 
-// object
 
-console.log(typeof undefined); // undefined
-console.log(typeof null); // object
-    console.log([userName, userAge, userLoggedIn, state])
+
+/* null ek object hai or ye empty value indicate karta hai thik waise jaise ek khali glass me hawa ho | undefined indicate karta hai ki varriable me koi data store ni kiya gaya hai abtak*/
+console.log([a , b, c, typeof a])
