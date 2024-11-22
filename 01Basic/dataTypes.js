@@ -1,7 +1,8 @@
 "use strict" // strict saare code ko new version me daal deta h agar koi galti karoge to ye error dedega
 
 /* chalo data type samjhte hai 
- hame kuch data agar chahiye jaise koi number name booliyan value jaise true false ye decimal value  to hame us data ko save rakhne ke liye ek memory location chahiye or us memory me rakhne ke liye hame ek varriable chahiye jisme wo data store ho sake.
+ hame kuch data agar chahiye jaise koi number name booliyan value jaise true false ye decimal value  to hame us data ko
+ save rakhne ke liye ek memory location chahiye or us memory me rakhne ke liye hame ek varriable chahiye jisme wo data store ho sake.
 */
 const a = null // const ko bina initialise kare rakhoge to error dega ise data dena hoga.
 
